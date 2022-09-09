@@ -386,7 +386,7 @@ video {
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px; 
-  border: 2px solid #000;
+  border: 2px solid rgb(226, 226, 226);
   box-shadow: 0 5px 10px rgb(210, 210, 210);
   cursor: default;
   transition: all 0.4s ease;
