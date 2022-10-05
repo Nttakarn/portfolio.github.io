@@ -7,8 +7,6 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-/* body { background-color: #02367f;} */
-
 /* Custom Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -47,7 +45,7 @@ nav .navbar{
 }
 nav .navbar .logo a{
   font-weight: 500;
-  font-size: 30px;
+  font-size: 1.8rem;
   color: #fff;
 }
 nav.sticky .navbar .logo a{
@@ -62,7 +60,7 @@ nav .navbar .menu li{
   margin: 0 8px;
 }
 .navbar .menu a{
-  font-size: 18px;
+  font-size: 1.1;
   font-weight: 500;
   color: #fff;
   padding: 6px 0;
@@ -79,7 +77,7 @@ nav.sticky .menu a:hover{
 }
 .navbar .media-icons a{
   color: #fff;
-  font-size: 18px;
+  font-size: 1.1rem;
   margin: 0 6px;
 }
 nav.sticky .media-icons a{
@@ -93,7 +91,7 @@ nav .menu-btn,
   color: #fff;
   right: 30px;
   top: 20px;
-  font-size: 20px;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
   display: none;
@@ -345,19 +343,12 @@ video {
   color: rgb(0, 0, 0);
 }
 
-/* contact */
-.contact{
+
+/* contact me ***************************************/
+.contactme {
   padding: 100px;
-  /* background:#000000; */
 }
-.contact .topic{
-  color: #000000;
-  font-size: 25px;
-  font-weight: 500;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-.contact i{
+.contactme i{
   font-size: 1.5rem;
   font-weight: 900;
   padding: 1.5rem;
@@ -366,51 +357,51 @@ video {
   background-color:#ea1;
   border-radius: 50%;
 }
-.contact i:hover{
-  background-color: rgb(0, 0, 0);
-  color: #fff;
+.contactme .topic{
+  color: #000000;
+  font-size: 1.5625rem;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
-
-.contact .boxes{
+.contactme .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 20px 5px;
 }
-.contact .boxes p{
+.contactme .boxes font{
+  font-size: 1.1rem;
   font-weight: 600;
-  color: #00bb01;
+  color: #dc3545;
 }
-.contact .boxes .box{
-  margin: 20px 20px;
+.contactme .boxes .box{
+  margin: 10px 20px;
   width: calc(150% / 4 - 20px);
   text-align: center;
   border-radius: 12px;
-  padding: 30px 10px; 
+  padding: 30px 10px;
   border: 2px solid rgb(226, 226, 226);
   box-shadow: 0 5px 10px rgb(210, 210, 210);
   cursor: default;
   transition: all 0.4s ease;
 }
-.contact .boxes .box:hover{
-  /* background: ; */
+.contactme .boxes .box:hover{
   color: #fff;
 }
-.contact .boxes .box:hover .topic,
-.contact .boxes .box:hover p{
+.contactme .boxes .box:hover .topic,
+.contactme .boxes .box:hover p{
   color: #0E2431;
   transition: all 0.4s ease;
 }
-.contact .boxes .box:hover .topic,
-.contact .boxes .box:hover p{
+.contactme .boxes .box:hover .topic,
+.contactme .boxes .box:hover p{
   color: rgb(0, 0, 0);
   transform: scale(1.2);
       cursor: pointer;
 }
 
-
-/* contact */
-
-
+/* content me ***************************************/
 
 /* Scroll TO Top Button CSS */
 .scroll-button a{
@@ -450,9 +441,9 @@ video {
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
-  .contact .boxes .box{
+  .contactme .boxes .box{
     margin: 20px 0;
-    width: calc(100% / 2 - 20px);
+    width: calc(100% / 2 - 2px);
   }
 }
 @media (max-width: 900px) {
@@ -523,27 +514,11 @@ video {
     margin: 20px 0;
     width: 100%;
   }
-  .contact .contact-details{
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .contact-details .text{
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .contact-details .boxes{
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  .contact .boxes .box{
+  .contactme .boxes .box{
     margin: 20px 0;
     width: 100%;
   }
-  .contact .text{
-    width: 100%;
-}
+  
 }
 
 @media (max-width: 500px){
